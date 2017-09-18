@@ -1,5 +1,5 @@
 # simple.transform
-Transform any objct Functionally -- a deep recursive javascript object tranformer.
+Transform any object Functionally -- a deep recursive JavaScript object transformer.
 
 ## Require
 ```javascript
