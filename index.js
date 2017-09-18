@@ -9,7 +9,7 @@ const merge = require(`lodash.merge`);
  * @return {any} transformed object;
  */
 const transformObject = (input, fn, ...args) =>
-  typeof input === 'object'
+  input && typeof input === 'object'
     ? Array.isArray(input)
       ? input.map(x => transformObject(x, fn, ...args))
       : Object.keys(input)
@@ -27,7 +27,7 @@ const transformObject = (input, fn, ...args) =>
  * @return {any} transformed object;
  */
 const transformArray = (input, fn, ...args) =>
-  typeof input === 'object'
+  input && typeof input === 'object'
     ? Array.isArray(input)
       ? fn(input.map(x => transformArray(x, fn, ...args)), ...args)
       : Object.keys(input)

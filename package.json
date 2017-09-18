@@ -1,8 +1,7 @@
 {
   "name": "simple.transform",
-  "version": "0.0.2",
-  "description":
-    "Transform any object Functionally -- a deep recursive JavaScript object transformer",
+  "version": "0.0.3",
+  "description": "Transform any object Functionally -- a deep recursive JavaScript object transformer",
   "main": "index.js",
   "scripts": {
     "test": "node test.js"
