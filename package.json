@@ -1,0 +1,17 @@
+{
+  "name": "simple.transform",
+  "version": "0.0.2",
+  "description": "Easily transform json object",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "author": "Phoenix Song <gtihub.com/azusa0127>",
+  "license": "MIT",
+  "dependencies": {
+    "lodash.merge": "^4.6.0"
+  },
+  "devDependencies": {
+    "deep-diff": "^0.3.8"
+  }
+}
